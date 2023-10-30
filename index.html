@@ -16,7 +16,7 @@
 <body>
 
   <!-- Navbar-->
-  <nav class="navbar navbar-expand-lg bg-primary mb-5 fixed-top" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
     <div class="container">
       <a class="navbar-brand" href="#"><strong>LEON FERNANDO</strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,18 +47,18 @@
   <section id="home">
     <div class="jumbotron jumbotron-fluid text-center">
       <div class="container">
-        <img src="img/profile.jpg" alt="profile" width="150px" class="rounded-circle mb-3">
-        <h1 class="display-4 mb-3">Leon Fernando Wijaya</h1>
+        <img src="img/profile.jpg" alt="profile" width="150px" class="rounded-circle mb-4">
+        <h1 class="display-4 mb-4">Leon Fernando Wijaya</h1>
         <p class="lead mb-4"></p>
         <div data-aos="zoom-in" data-aos-duration="3000">
           <a href="https://www.linkedin.com/in/leon-fernando-wijaya-479016258/" target="_blank"><i
-              class="fa-brands fa-linkedin fa-2xl" style="color: #005eff;"></i></a>
-          <a href="https://wa.me/081212616321" target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl"
+              class="fa-brands fa-linkedin fa-2xl px-1" style="color: #005eff;"></i></a>
+          <a href="https://wa.me/081212616321" target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl px-1"
               style="color: #00f504;"></i></a>
           <a href="https://github.com/LeonFernandoWijaya?tab=repositories" target="_blank"><i
-              class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+              class="fa-brands fa-github fa-2xl px-1" style="color: #000000;"></i></a>
           <a href="https://www.youtube.com/@leonfernandowijaya3485" target="_blank"><i
-              class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i></a>
+              class="fa-brands fa-youtube fa-2xl px-1" style="color: #ff0000;"></i></a>
         </div>
       </div>
     </div>
@@ -73,10 +73,10 @@
   <!-- About-->
   <section id="about" style="background-color: #A6E3E9;">
     <div class="container-fluid">
-      <div class="row text-center mb-4" data-aos="zoom-in">
+      <div class="row text-center pb-4" data-aos="zoom-in">
         <h2>About Me</h2>
       </div>
-      <div class="row d-flex justify-content-center mb-4">
+      <div class="row d-flex justify-content-center pb-4">
         <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
           <p>Saya adalah seorang mahasiswa jurusan Sistem Informasi di Universitas Tarumanagara dan saat ini berada di
             semester <Strong>5</Strong> dengan IPK <Strong>3.97</Strong>. Memiliki latar belakang yang kuat dalam
@@ -93,26 +93,19 @@
         </div>
       </div>
       <br>
-      <div class="row d-flex justify-content-center mb-4">
-        <div class="col text-center" data-aos="zoom-out" data-aos-duration="1000">
-          <i class="fa-brands fa-html5 fa-2xl" style="color: #f06529;"></i>
-          <i class="fa-brands fa-css3-alt fa-2xl" style="color: #005cfa;"></i>
-          <i class="fa-brands fa-php fa-2xl" style="color: #2b207e;"></i>
-          <i class="fa-solid fa-database fa-2xl" style="color: #005eff;"></i>
-          <i class="fa-brands fa-square-js fa-2xl" style="color: #F0DB4F;"></i>
-          <i class="fa-brands fa-python fa-2xl" style="color: #4584b6;"></i>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col text-center" data-aos="zoom-out" data-aos-duration="1000">
-          <i class="fa-brands fa-bootstrap fa-2xl" style="color: #6427be;"></i>
-          <i class="fa-brands fa-java fa-2xl" style="color: #e54906;"></i>
-          <i class="fa-brands fa-linux fa-2xl" style="color: #000000;"></i>
-          <i class="fa-brands fa-ubuntu fa-2xl" style="color: #fd6b1c;"></i>
-          <i class="fa-brands fa-figma fa-2xl" style="color: #000000;"></i>
 
-
-        </div>
+      <div class="mx-auto justify-content-center d-flex" data-aos="zoom-in" data-aos-duration="1000">
+        <i class="fa-brands fa-html5 fa-2xl p-2" style="color: #f06529;"></i>
+        <i class="fa-brands fa-css3-alt fa-2xl p-2" style="color: #005cfa;"></i>
+        <i class="fa-brands fa-php fa-2xl p-2" style="color: #2b207e;"></i>
+        <i class="fa-solid fa-database fa-2xl p-2" style="color: #005eff;"></i>
+        <i class="fa-brands fa-square-js fa-2xl p-2" style="color: #F0DB4F;"></i>
+        <i class="fa-brands fa-python fa-2xl p-2" style="color: #4584b6;"></i>
+        <i class="fa-brands fa-bootstrap fa-2xl p-2" style="color: #6427be;"></i>
+        <i class="fa-brands fa-java fa-2xl p-2" style="color: #e54906;"></i>
+        <i class="fa-brands fa-linux fa-2xl p-2" style="color: #000000;"></i>
+        <i class="fa-brands fa-ubuntu fa-2xl p-2" style="color: #fd6b1c;"></i>
+        <i class="fa-brands fa-figma fa-2xl p-2" style="color: #000000;"></i>
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -370,7 +363,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
   <script>
     gsap.registerPlugin(TextPlugin);
-    gsap.to('.lead', { duration: 3, delay: 1.5, text: 'Information System' })
+    gsap.to('.lead', { duration: 3, delay: 1.5, text: 'Information System Student | Tarumanagara University' })
     gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
     gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' })
     gsap.from('.display-4', { duration: 1, x: '-50', opacity: 0, delay: 0.5, ease: 'back' })
